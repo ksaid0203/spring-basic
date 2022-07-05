@@ -12,6 +12,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+// @Configuration 이 없을 시 memberRepository()가 각각 새롭게 객체를 생성하는 것을 확인
 @Configuration
 public class AppConfig {
     // @Bean memberService -> new MemoryMemberRepository()
